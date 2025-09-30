@@ -1,6 +1,6 @@
 name: Sync IPTV Playlists
 
-on:
+o:
   schedule:
     - cron: '0 */2 * * *'        # 每 2 小时触发（UTC）
   workflow_dispatch:
